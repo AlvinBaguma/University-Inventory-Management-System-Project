@@ -1,0 +1,42 @@
+# Maven build output
+target/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+*.eclipse
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Tomcat deployment artifacts (deploy the WAR, not these)
+*.war
+*.ear
+*.class
+
+# Local environment overrides – do not commit real DB credentials
+# Copy DBConnection.java.template → DBConnection.java and add your credentials
